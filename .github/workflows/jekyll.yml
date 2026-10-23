@@ -11,7 +11,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -34,6 +34,18 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
           cache-version: 0
+      - name: Enable GitHub Pages with Actions as the source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          api="https://api.github.com/repos/${GITHUB_REPOSITORY}/pages"
+          if curl -fsS -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" "${api}"; then
+            echo "GitHub Pages is already configured."
+          else
+            curl -sS -X POST -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" \
+              -d '{"build_type":"workflow"}' "${api}"
+          fi
+        continue-on-error: true
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6.0.0
         with:
