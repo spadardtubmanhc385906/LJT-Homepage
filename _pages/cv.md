@@ -15,6 +15,7 @@ Education
   * Ph.D. candidate at the HKUST NLP Group, advised by Professor Junxian He
 * B.Eng., Shanghai Jiao Tong University (SJTU), 2020 - 2024
   * Graduated in June 2024
+  * Previously advised by Professor Junxian He during undergraduate studies
 
 Research Experience
 ======
