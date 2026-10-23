@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-I am a first-year Ph.D. candidate at the [HKUST NLP Group](#contact), Hong Kong University of Science and Technology, advised by Professor Junxian He. My research focuses on natural language processing and machine learning. I graduated from Shanghai Jiao Tong University (SJTU) in June 2024.
+I am a first-year Ph.D. candidate at the HKUST NLP Group, Hong Kong University of Science and Technology, advised by Professor Junxian He. My research focuses on natural language processing and machine learning. I graduated from Shanghai Jiao Tong University (SJTU) in June 2024.
 
 ## Research Interests
 
@@ -21,7 +21,7 @@ I am a first-year Ph.D. candidate at the [HKUST NLP Group](#contact), Hong Kong 
 
 * **Ph.D. in Computer Science**, Hong Kong University of Science and Technology (HKUST), 2024 - Present
   * Ph.D. candidate at the HKUST NLP Group, advised by Professor Junxian He
-* **B.Eng.*, Shanghai Jiao Tong University (SJTU), 2020 - 2024
+* **B.Eng.**, Shanghai Jiao Tong University (SJTU), 2020 - 2024
   * Graduated in June 2024
 
 ## Research Experience
@@ -34,7 +34,7 @@ I am a first-year Ph.D. candidate at the [HKUST NLP Group](#contact), Hong Kong 
 
 ## Publications
 
-\* Detailed publication records are also available on the [Publications page]({{ base_path }}/publications/).
+The full publication list is also available on the [Publications page]({{ base_path }}/publications/).
 
 1. **SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond**
    * **Junteng Liu**, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He
